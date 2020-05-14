@@ -256,7 +256,7 @@ class Navbar extends React.Component {
                                                             className="btn btn-primary"
                                                             onClick={() => {
                                                                   axios({
-                                                                        url: `http://157.230.39.47:5000/test`,
+                                                                        url: `https://wifi-attack-detector.herokuapp.com/test`,
                                                                         method:
                                                                               "POST",
                                                                         data: {
